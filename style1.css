@@ -1,0 +1,44 @@
+body{
+    margin: 0px;
+}
+*{
+    box-sizing: border-box;
+}
+header{
+    background-color: gray;
+    text-align: center;
+    font-size: 50px;
+}
+.navbar{
+    background-color: yellowgreen;
+    text-align: center;
+    font-size: 30px;
+    top: 5px;
+}
+aside{
+    width: 30%;
+    float: left;
+    padding: 15px;
+
+    
+}
+section{
+    width: 40px;
+    float: left;
+    padding: 15px;
+}
+article{
+    width: 30%;
+    float: right;
+    padding: 15px;
+}
+footer{
+    display: block;
+    clear: both;
+    background-color: gray;
+    text-align: center;
+}@media screen and (max-width:600px){ 
+    aside,section,article{
+        width: 100%;
+    }
+}
